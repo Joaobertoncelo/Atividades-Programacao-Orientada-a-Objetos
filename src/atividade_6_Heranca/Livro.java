@@ -4,9 +4,8 @@ public class Livro extends Publicacao{
 	
 	private int qtdPaginas;
 	
-	public Livro(String titulo, float preco) {
-		super(titulo);
-		
+	public Livro(String titulo, float preco, int qtdPaginas) {
+		super(titulo, preco);
+		this.qtdPaginas = qtdPaginas;
 	}
-
 }
